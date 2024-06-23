@@ -1,5 +1,5 @@
 from turtle import Turtle
-import random
+import random ad ra
 
 
 class Food(Turtle):
@@ -11,8 +11,8 @@ class Food(Turtle):
         self.color("cyan")
 
     def random_food(self):
-        x= random.randint(-280,280)
-        y = random.randint(-280, 280)
+        x= ra.randint(-280,280)
+        y = ra.randint(-280, 280)
         self.goto(x,y)
 
 
